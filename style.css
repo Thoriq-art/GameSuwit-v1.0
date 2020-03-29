@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.center{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+    -webkit-animation: color-change;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes color-change{
+  0%{   background: -webkit-linear-gradient(45deg, skyblue, greenyellow);-webkit-background-clip: text;-webkit-text-fill-color: transparent; transform: scale(1);}
+   25%{   background: -webkit-linear-gradient(45deg, greenyellow, blue);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+    50%{   background: -webkit-linear-gradient(45deg, blue, green);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+     75%{   background: -webkit-linear-gradient(45deg, green, yellow);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+      100%{   background: -webkit-linear-gradient(45deg, yellow, orange);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}}
+.center1{
+  position: absolute;
+  top: 52%;
+  left: 45%;
+}
+.center2 {
+  position: absolute;
+  top: 93%;
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+b{
+  color: orangered
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
