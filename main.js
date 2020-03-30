@@ -1,4 +1,4 @@
-alert('Selamat Datang di game penghilang GABUT. Klik ok untuk melanjutkan')
+alert('Selamat Datang di GAME SUWIT JAWA SEDERHANA. Klik ok untuk melanjutkan')
 var tanya = true;
 while ( tanya ){
 //menangkap pilihan player
